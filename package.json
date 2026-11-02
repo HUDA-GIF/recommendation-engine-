@@ -1,0 +1,23 @@
+{
+  "name": "alphafit-recommendation-engine",
+  "version": "1.0.0",
+  "description": "AlphaFit rule-based personalized workout and meal recommendation engine (not a trained ML model)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/interactive.js",
+    "test": "node --test tests/workoutRecommendations.test.js tests/mealRecommendations.test.js",
+    "demo": "node src/demo.js"
+  },
+  "keywords": [
+    "alphafit",
+    "recommendation",
+    "rule-based",
+    "fitness",
+    "nutrition"
+  ],
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  }
+}
